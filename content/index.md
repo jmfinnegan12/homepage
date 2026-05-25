@@ -13,10 +13,10 @@ I began my career as an engineer, went back to grad school for a semester, left 
 My interests are centered largely in strategy, philosophy, and self-mastery. My hobbies include outdoor adventure (fly fishing, backpacking, and backcountry skiing), endurance running, and world travel, as well as poker, reading, music, and comedy. I am currently combining my hobbies and intellectual interests with my career. Several of my current projects are linked below.
 
 ## Projects
-[Temerity Holdings](https://temerityhq.com/) - an experimental AI-powered hedge fund.
-[Systematic Poker](https://systematicpoker.com/) - a tool to analyze and improve my poker game.
-[Sand Flea Media](https://sandfleamedia.com/) - a "second brain" for fly fishermen.
-[The Polymath Career ](https://polymathcareer.com/) - documenting building my project-based career.
+[Temerity Holdings](https://temerityhq.com/) - an experimental AI-powered hedge fund.  
+[Systematic Poker](https://systematicpoker.com/) - a tool to analyze and improve my poker game.  
+[Sand Flea Media](https://sandfleamedia.com/) - a "second brain" for fly fishermen.  
+[The Polymath Career ](https://polymathcareer.com/) - documenting building my project-based career.  
 
 
 
