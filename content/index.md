@@ -4,16 +4,19 @@ title: Jim Finnegan
 # Home
 My homepage  
 
-## About Me
-I began my career as an engineer, went back to grad school for a semester, left for an opportunity to work as an analyst on a commodities desk, progressed to trader, left after three years, traveled for a year, and began working on my own. I have learned that academia and corporate jobs are not my calling.
+## Mission
+I apply systematic, analytical thinking to the things I love — and share what I learn — so others can do the same.
 
-I am interested in data driven strategy, philosophy, and self-mastery. My hobbies and interests include outdoor adventure (fly fishing, backpacking, and backcountry skiing), endurance running, and world travel, as well as poker, reading, music, and comedy. I am currently combining my hobbies and intellectual interests with my career. Several of my current projects are linked here.
+## About Me
+I began my career as an engineer, went back to grad school for a semester, left for an opportunity to work as an analyst on a commodities desk, progressed to trader, left after three years, traveled for a year and a half, then began working on my own. I have learned that academia and corporate jobs are not my calling.
+
+My interests are centered largely in strategy, philosophy, and self-mastery. My hobbies include outdoor adventure (fly fishing, backpacking, and backcountry skiing), endurance running, and world travel, as well as poker, reading, music, and comedy. I am currently combining my hobbies and intellectual interests with my career. Several of my current projects are linked below.
 
 ## Projects
-[Temerity Holdings](https://temerityhq.com/) - building an experimental "quant trading fund" comprised of AI agents.  
-[Systematic Poker](https://systematicpoker.com/) - vibe coding a tool to analyze and improve my poker game.  
-[Sand Flea Media](https://sandfleamedia.com/) - become a better fly fisherman by documenting my time on the water.  
-[The Polymath Career ](https://polymathcareer.com/)- documenting creating my career of side hustles.  
+[Temerity Holdings](https://temerityhq.com/) - an experimental AI-powered hedge fund.
+[Systematic Poker](https://systematicpoker.com/) - a tool to analyze and improve my poker game.
+[Sand Flea Media](https://sandfleamedia.com/) - a "second brain" for fly fishermen.
+[The Polymath Career ](https://polymathcareer.com/) - documenting building my project-based career.
 
 
 
