@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jim Finnegan</title>
+<meta name="description" content="Jim Finnegan — I apply systematic, analytical thinking to the things I love, and share what I learn, so others can do the same.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jim Finnegan">
+<meta property="og:description" content="Systematic, analytical thinking applied to the things I love, and shared, so others can do the same.">
+<meta property="og:url" content="https://algojimbo.com">
+<meta property="og:image" content="https://algojimbo.com/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://algojimbo.com/assets/og.png">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230e0e12'/%3E%3Ctext x='50' y='70' font-family='ui-monospace,monospace' font-weight='600' font-size='50' fill='%23c7bce0' text-anchor='middle'%3EJF%3C/text%3E%3C/svg%3E">
+
+<style>
+  :root {
+    --bg:#0e0e12; --bg-raise:#16161c; --line:#2a2a36; --line-soft:#20202a;
+    --ink:#e8e8ee; --ink-soft:#a6a6b4; --ink-faint:#6d6d7e;
+    --lav:#c7bce0; --lav-dim:#9a8fc0;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans);
+         font-size:17px; line-height:1.6; -webkit-font-smoothing:antialiased;
+         text-rendering:optimizeLegibility; }
+  a { color:var(--lav); text-decoration:none; }
+  a:hover { text-decoration:underline; text-underline-offset:3px; }
+  .wrap { max-width:720px; margin:0 auto; padding:0 24px; }
+
+  /* Hero */
+  .hero { padding:76px 0 34px; display:flex; gap:28px; align-items:center; }
+  .portrait {
+    width:132px; height:132px; flex:none; border-radius:14px; overflow:hidden;
+    border:1px solid var(--line); box-shadow:0 0 0 4px rgba(199,188,224,0.06);
+    background:#16161c;
+  }
+  .portrait img { display:block; width:100%; height:100%; object-fit:cover; object-position:center; }
+  .htext h1 { font-size:clamp(30px,5.4vw,44px); line-height:1.08; letter-spacing:-0.02em;
+              font-weight:650; margin:0 0 12px; }
+  .htext .tag { font-family:var(--mono); font-size:13px; letter-spacing:0.02em;
+                color:var(--lav-dim); margin-bottom:14px; }
+  .subs { font-family:var(--mono); font-size:13px; letter-spacing:0.02em;
+          display:inline-flex; align-items:center; gap:7px;
+          border:1px solid var(--line); border-radius:8px; padding:7px 13px; color:var(--ink); }
+  .subs:hover { text-decoration:none; border-color:var(--lav-dim); background:var(--bg-raise); }
+  .subs .arr { color:var(--ink-faint); }
+
+  .lead { color:var(--ink-soft); font-size:19px; line-height:1.55; margin:0;
+          padding:8px 0 4px; }
+
+  section { padding:38px 0; border-top:1px solid var(--line-soft); }
+  .seclabel { font-family:var(--mono); font-size:12px; letter-spacing:0.14em;
+              text-transform:uppercase; color:var(--lav-dim); margin:0 0 16px; }
+  section p { color:var(--ink-soft); margin:0 0 15px; }
+  section p:last-child { margin-bottom:0; }
+
+  .projects { display:grid; gap:0; }
+  .proj { display:flex; align-items:baseline; gap:12px; flex-wrap:wrap;
+          padding:15px 2px; border-bottom:1px solid var(--line-soft); }
+  .projects .proj:last-child { border-bottom:none; }
+  .proj .nm { font-family:var(--mono); font-size:15px; color:var(--ink); letter-spacing:0.01em; }
+  .proj .ds { color:var(--ink-faint); font-size:15px; }
+  .proj .go { margin-left:auto; color:var(--ink-faint); }
+  a.proj:hover { text-decoration:none; }
+  a.proj:hover .nm { color:var(--lav); }
+  a.proj:hover .go { color:var(--lav); }
+  .proj.static { cursor:default; }
+
+  footer { border-top:1px solid var(--line); padding:26px 0 46px;
+           display:flex; justify-content:space-between; align-items:center; gap:14px; flex-wrap:wrap;
+           font-family:var(--mono); font-size:12.5px; color:var(--ink-faint); }
+  footer a { color:var(--ink-soft); display:inline-flex; align-items:center; gap:6px; }
+  footer .arr { color:var(--ink-faint); }
+  @media (max-width:520px){ .hero{flex-direction:column; align-items:flex-start; padding:56px 0 26px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="portrait">
+      <img src="assets/jim.jpg" alt="Jim Finnegan" width="132" height="132">
+    </div>
+    <div class="htext">
+      <h1>Jim Finnegan</h1>
+      <div class="tag">strategy · systems · self-mastery</div>
+      <a class="subs" href="https://substack.com/@algojimbo" target="_blank" rel="noopener">Substack <span class="arr">↗</span></a>
+    </div>
+  </header>
+
+  <section style="border-top:none; padding-top:6px;">
+    <p class="lead">I apply systematic, analytical thinking to the things I love, and share what I learn, so others can do the same.</p>
+  </section>
+
+  <section>
+    <p class="seclabel">About</p>
+    <p>I began my career as an engineer, went back to grad school for a semester, left for an opportunity to work as an analyst on a commodities desk, progressed to trader, left after three years, traveled for a year and a half, then began working on my own. I have learned that academia and corporate jobs are not my calling.</p>
+    <p>My interests are underpinned by the concepts of strategy, philosophy, and self-mastery. My hobbies include outdoor adventure (fly fishing, backpacking, and backcountry skiing), endurance running, and world travel, as well as poker, reading, music, and comedy. I am currently pursuing a career combining my hobbies and intellectual interests. Currently working on Temerity Holdings.</p>
+  </section>
+
+  <section>
+    <p class="seclabel">Projects</p>
+    <div class="projects">
+      <a class="proj" href="https://temerityhq.com/" target="_blank" rel="noopener"><span class="nm">Temerity Holdings</span> <span class="ds">building a systematic trading operation</span> <span class="go">→</span></a>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Jim Finnegan</span>
+    <a href="https://substack.com/@algojimbo" target="_blank" rel="noopener">Substack <span class="arr">↗</span></a>
+  </footer>
+</div>
+</body>
+</html>

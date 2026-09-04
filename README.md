@@ -1,17 +1,10 @@
-# Quartz v4
+# algojimbo.com
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Jim Finnegan's personal homepage — a single static HTML page, no build step.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+- `index.html` — the page (all CSS inline).
+- `assets/` — portrait (`jim.jpg`) and social-share card (`og.png`).
+- `CNAME` — custom domain (`algojimbo.com`).
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
-
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
-
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+Deployed to GitHub Pages on every push to `v4` by `.github/workflows/deploy.yml`,
+which just copies the static files into the Pages artifact (no npm, no framework).
